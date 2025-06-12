@@ -8,18 +8,19 @@ import Achieve from './pages/Achievement';
 import Academic from './pages/Academic';
 import Facility from './pages/Facility';
 import ScrollToTop from './components/ScrollToTop';
+
 function App() {
   return (
-    <Router>
+    <Router basename="/msms">
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
- <Route path="/gallery" element={<Gallery />} />
- <Route path="/contact" element={<Contact />} />
-  <Route path="/Achievements" element={<Achieve />} />
-    <Route path="/Academics" element={<Academic />} />
-      <Route path="/Facilities" element={<Facility />} />
+        <Route path="/gallery" element={<Gallery />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/Achievements" element={<Achieve />} />
+        <Route path="/Academics" element={<Academic />} />
+        <Route path="/Facilities" element={<Facility />} />
       </Routes>
     </Router>
   );
