@@ -35,7 +35,7 @@ const Header = () => {
       <header className={styles.header}>
         <div className={styles.container}>
           <div className={styles.logo}>
-            <img src="/images/MSMS.png" alt="MSMS Logo" />
+            <img src="./images/MSMS.png" alt="MSMS Logo" />
           </div>
 
           <nav className={`${styles.nav} ${menuOpen ? styles.open : ""}`}>
