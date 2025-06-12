@@ -16,7 +16,7 @@ const Instructors = () => {
 
       <div className={styles.groupPhotoWrapper}>
         <img
-          src="./images/group.webp" // <-- replace with your actual group image path
+          src="./images/Group.webp" // <-- replace with your actual group image path
           alt="Group of Instructors"
           className={styles.groupPhoto}
         />

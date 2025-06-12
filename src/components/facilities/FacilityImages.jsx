@@ -6,7 +6,7 @@ const images = [
   { src: "./images/lab.jpg", title: "Science Lab" },
   { src: "./images/library.jpg", title: "Library" },
   { src: "./images/smart class rooms.jpg", title: "Smart Classrooms" },
-  { src: "./images/carrom.jpg", title: "Carrom" },
+  { src: "./images/Carrom.jpg", title: "Carrom" },
   { src: "./images/Dance.jpg", title: "Dance" },
   { src: "./images/Keyboard.jpg", title: "Keyboard" },
   { src: "./images/Karate.jpg", title: "Karate" },
