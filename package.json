@@ -1,5 +1,6 @@
 {
   "name": "msms-school",
+  "homepage": "https://ara-tech-organization.github.io/msms",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
